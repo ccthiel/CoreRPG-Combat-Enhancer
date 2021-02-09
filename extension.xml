@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root version="3.3.12.2" release="1">
+  <properties>
+    <name>CoreRPG Conbat Enhancer</name>
+    <version>0.0.1</version>
+    <author>OgreManDude</author>
+    <description>A little diddy to make life easier</description>
+    <ruleset>
+      <name>CoreRPG</name>
+    </ruleset>
+  </properties>
+  <base>
+  </base>
+</root>

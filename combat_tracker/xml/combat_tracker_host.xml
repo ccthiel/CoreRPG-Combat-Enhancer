@@ -4,7 +4,7 @@
 	<windowclass name="ct_entry" merge="join">
 		<sheetdata>
 			<token_ctentry name="token">
-				<script file="combat_tracker/scripts/combat_tracker_token_override.lua" />
+				<script file="combat_tracker/scripts/combat_tracker_host_token_override.lua" />
 			</token_ctentry>
 		</sheetdata>
 	</windowclass>

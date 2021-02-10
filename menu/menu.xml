@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+	<!-- Script to register all menu items -->
+	<script name="MenuItemRegister" file="menu/scripts/register_menu_items.lua" />        		
+
+	<!-- Strings for Menu Items -->
+	<string name="menu_option_header_corerpg_combat_enhancer">CoreRPG Combat Enhancer</string>
+	<string name="menu_option_show_reach_underlay">Show reach underlay</string>		
+	<string name="menu_option_show_faction_underlay">Show faction/space underlay</string>	
+</root>

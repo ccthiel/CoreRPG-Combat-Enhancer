@@ -1,14 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="iso-8859-1"?>
 <root version="3.3.12.2" release="1">
-  <properties>
-    <name>CoreRPG Conbat Enhancer</name>
-    <version>0.0.1</version>
-    <author>OgreManDude</author>
-    <description>A little diddy to make life easier</description>
-    <ruleset>
-      <name>CoreRPG</name>
-    </ruleset>
-  </properties>
-  <base>
-  </base>
+	<properties>
+		<name>CoreRPG Combat Enhancer</name>
+		<version>0.0.1</version>
+		<author>OgreManDude</author>
+		<description>A little diddy to make life easier.</description>
+		<ruleset>
+			<name>CoreRPG</name>
+		</ruleset>
+		<ruleset>
+			<name>5E</name>
+		</ruleset>
+		<ruleset>
+			<name>PFRPG</name>
+		</ruleset>
+	</properties>
+	<base>
+		<!-- Base Extension Script -->
+		<script name="CombatEnhancer" file="scripts/corerpg_combat_enhancer.lua" />
+
+		<!-- Menu Options -->
+		<includefile source="menu/menu.xml" />
+
+		<!-- Graphics -->
+		<includefile source="graphics/graphics.xml" />
+	</base>
 </root>

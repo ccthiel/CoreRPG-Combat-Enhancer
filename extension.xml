@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <root version="3.3.12.2" release="1">
 	<properties>
-		<name>CoreRPG Combat Enhancer</name>
+		<name>CoreRPG - Combat Enhancer</name>
 		<version>0.0.1</version>
 		<author>OgreManDude</author>
 		<description>A little diddy to make life easier.</description>
@@ -24,5 +24,8 @@
 
 		<!-- Graphics -->
 		<includefile source="graphics/graphics.xml" />
+
+		<!-- Combat Tracker -->
+		<includefile source="combat_tracker/combat_tracker.xml" />
 	</base>
 </root>

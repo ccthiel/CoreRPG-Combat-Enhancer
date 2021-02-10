@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+	<windowclass name="ct_entry" merge="join">
+		<sheetdata>
+			<token_ctentry name="token">
+				<script file="combat_tracker/scripts/combat_tracker_token_override.lua" />
+			</token_ctentry>
+		</sheetdata>
+	</windowclass>
+</root>
